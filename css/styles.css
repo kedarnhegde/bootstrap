@@ -6,24 +6,28 @@
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
+    border-bottom: 5px ridge;
+    
     min-height:200px;
 }
 
 .footer{
-    background-color: #D1C4E9;
+    background-color: darkgreen;
     margin:0px auto;
+    color: floralwhite;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
+    background: darkgreen ;
     color:floralwhite;
 }
 
 .address{
     font-size:80%;
     margin:0px;
-    color:#0f0f0f;
+    color: #0f0f0f;
 }
+.link { color: lightpink; } 
+.link:hover { color: darkcyan; } 
