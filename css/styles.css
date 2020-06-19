@@ -70,3 +70,12 @@ body {
 .carousel-caption p {
     padding-left: 50px;
 }
+.modal h3 {
+    color: black;
+}
+.modal label {
+    color: black;
+}
+.modal .section {
+    color: white;
+}
