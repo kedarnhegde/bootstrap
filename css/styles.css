@@ -54,7 +54,7 @@ body {
     padding: 10px;
 }
 .carousel {
-    background:#512DA8;
+    background: darkred;
 }
 
 .carousel-item {
@@ -78,4 +78,9 @@ body {
 }
 .modal .section {
     color: white;
+}
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
 }
