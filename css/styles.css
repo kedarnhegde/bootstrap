@@ -1,86 +1,81 @@
-.row-header{
-    margin:0px auto;
-    padding:0px;
-}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
 
 .row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 5px ridge;
-    
-    min-height:200px;
-}
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
-.footer{
-    background-color: darkgreen;
-    margin:0px auto;
-    color: floralwhite;
-    padding: 20px 0px 20px 0px;
-}
+.footer {
+  background-color: green;
+  margin: 0px auto;
+  padding: 20px 0px;
+  color: #ddd; }
+
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background: darkgreen ;
-    color:floralwhite;
-}
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: darkgreen;
+  color: floralwhite; }
 
-.address{
-    font-size:80%;
-    margin:0px;
-    color: #0f0f0f;
-}
-.link { 
-    color: lightpink;
-} 
-.link:hover { 
-    color: darkcyan; 
-} 
+.link {
+  color: lightcoral;
+  text-decoration: none; }
+
+.link:hover {
+  color: orangered;
+  text-decoration: none; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
 body {
-    padding-top: 50px;
-    z-index: 0;
-}
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
 
-.navbar li{
-    padding-left: 15px;
-}
+.navbar li {
+  padding-left: 12px; }
+
 .footer .btn {
- margin-left: 15px;
-}
+  margin-left: 15px; }
+
 .tab-content {
-    border-left: 1px solid #dddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    padding: 10px;
-}
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
 .carousel {
-    background: darkred;
-}
+  background: darkred; }
+  .carousel .carousel-item {
+    height: 200px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 200px; }
 
-.carousel-item {
-  height: 200px;
-}
-
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 200px;
-}
 .carousel-caption p {
-    padding-left: 50px;
-}
-.modal h3 {
-    color: black;
-}
-.modal label {
-    color: black;
-}
-.modal .section {
-    color: white;
-}
+  padding-left: 50px; }
+
 #carouselButton {
-    right: 0px;
-    position: absolute;
-    bottom: 0px;
-}
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+.modal label {
+  color: black; }
+
+.modal .section {
+  color: white; }
+
+.modal-header {
+  background: #413737;
+  color: #ddd; }
+  .modal-header .close {
+    color: #ddd; }
